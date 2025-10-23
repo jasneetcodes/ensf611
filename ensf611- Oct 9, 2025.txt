@@ -1,0 +1,56 @@
+2025/10/09
+
+ENSF 611
+SVC
+
+SVM
+
+Kernel Trick
+
+10 featues and use a 5 degree polynomial kernel
+
+10 + 5 / 5 = 3003
+
+
+
+2 types of kernel
+
+- 2 ways to map data into higher dimensional space that are commonly used with support vector machines:
+
+Polynomial kernel
+
+RBG kernel
+
+
+SVM maximize margin
+
+Hard margin, higher chance of overfitting
+
+Soft margin, allowing ambiguity,
+
+C = adjust margins, higher value = harder margin
+
+Gamma = Sigma, lower gamma = sigma less. Wider distribution or not. 
+Effective sample effect to neighbours = increase distribution.
+
+RGB - 
+
+High C - higher emphasis on errors.
+
+- Higher C - More squiggly margin line. Trying to Split the data points PERFECTLY
+
+Gamma - high gamma, reduce radius.  Spread of each data spread more. Border and margin being affected.
+
+- Higher Gamma - Much more higher effect on complicating the higher plane right away
+	
+
+
+
+
+q. Polynomial kernel -  C (regularization) Amount of error allowed during learning process **CONSTANT BIAS** Kernel trick, degree  (can control how many dimensions up you go)
+
+Cant control the amount of dimensions up you can go in RBG Kernel (Infinite) **
+
+
+
+
